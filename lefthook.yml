@@ -1,9 +1,8 @@
 pre-commit:
   commands:
-    tags: linting
     lint:
       run: npm run lint:pre-commit
 commit-msg:
   commands:
     commitlint:
-      run: yarn commitlint --edit "{1}"
+      run: npx commitlint --edit "{1}"
