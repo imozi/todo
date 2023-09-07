@@ -3,7 +3,7 @@ pre-commit:
   commands:
     lint:
       run: npm run lint:pre-commit
-    lint:
+    test:
       run: npm run test:unit
 commit-msg:
   commands:
